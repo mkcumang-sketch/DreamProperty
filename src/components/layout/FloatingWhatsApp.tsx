@@ -12,7 +12,7 @@ export function FloatingWhatsApp() {
   return (
     <aside
       aria-label="Direct messaging contact"
-      className="fixed bottom-6 right-6 z-40 flex items-center group"
+      className="fixed bottom-6 right-6 z-[90] flex items-center group"
     >
       <span className="hidden md:inline-block mr-3 px-3 py-1.5 rounded-full bg-[#0d1117]/90 text-white/90 text-xs font-medium border border-white/10 shadow-lg backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
         {t.hero.ctaSecondary}

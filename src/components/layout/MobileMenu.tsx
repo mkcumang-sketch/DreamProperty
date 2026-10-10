@@ -29,7 +29,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
             onClick={onClose}
-            className="fixed inset-0 z-40 bg-black/80 backdrop-blur-sm lg:hidden"
+            className="fixed inset-0 z-[110] bg-black/80 backdrop-blur-sm lg:hidden"
             aria-hidden="true"
           />
 
@@ -38,7 +38,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ type: 'spring', damping: 28, stiffness: 240 }}
-            className="fixed top-0 right-0 bottom-0 z-50 w-full max-w-xs bg-[#0b0f14] border-l border-white/10 p-6 flex flex-col justify-between overflow-y-auto lg:hidden"
+            className="fixed top-0 right-0 bottom-0 z-[120] w-full max-w-xs bg-[#0b0f14] border-l border-white/10 p-6 flex flex-col justify-between overflow-y-auto lg:hidden"
             role="dialog"
             aria-modal="true"
             aria-label="Navigation Menu"

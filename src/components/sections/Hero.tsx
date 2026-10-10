@@ -14,13 +14,20 @@ export function Hero() {
   const whatsappUrl = buildWhatsAppLink();
 
   return (
-    <section className="relative min-h-[92vh] flex items-center justify-center pt-28 pb-16 overflow-hidden">
+    <section className="relative min-h-[92vh] flex items-center justify-center pt-32 pb-20 overflow-hidden bg-[#05070a] z-10">
+      {/* Solid dark base background */}
+      <div className="absolute inset-0 bg-[#05070a] pointer-events-none" />
+
       {/* Background ambient gradient orbs (GPU transforms only) */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-[radial-gradient(circle,rgba(224,35,28,0.14)_0%,rgba(5,7,10,0)_70%)] blur-3xl pointer-events-none will-change-transform" />
-      <div className="absolute bottom-10 left-1/4 w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(255,255,255,0.03)_0%,rgba(5,7,10,0)_70%)] blur-2xl pointer-events-none" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-[radial-gradient(circle,rgba(224,35,28,0.12)_0%,rgba(5,7,10,0)_70%)] blur-3xl pointer-events-none will-change-transform z-0" />
+      <div className="absolute bottom-10 left-1/4 w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(255,255,255,0.02)_0%,rgba(5,7,10,0)_70%)] blur-2xl pointer-events-none z-0" />
 
       {/* Grid pattern overlay */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_40%,#000_70%,transparent_100%)] pointer-events-none" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_40%,#000_70%,transparent_100%)] pointer-events-none z-0" />
+
+      {/* High-contrast dark gradient scrims behind the copy */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_45%,rgba(5,7,10,0.85)_0%,rgba(5,7,10,0.98)_85%)] pointer-events-none z-[1]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#05070a] via-transparent to-[#05070a] pointer-events-none z-[1]" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         {/* Partner badge */}

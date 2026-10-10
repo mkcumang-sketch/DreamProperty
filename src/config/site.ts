@@ -11,7 +11,7 @@ export const siteConfig = {
   email: 'contact@dreamproperties.in',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '918299058827',
-  
+
   partner: {
     name: 'Dream Properties',
     businessType: 'Real Estate Agency & Property Advisory',

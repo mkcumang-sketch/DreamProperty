@@ -35,9 +35,9 @@ export function Navbar() {
       <motion.header
         animate={{ y: isHidden ? -100 : 0 }}
         transition={{ duration: 0.3, ease: 'easeInOut' }}
-        className={`fixed top-0 left-0 right-0 z-40 transition-colors duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-[100] transition-colors duration-300 ${
           isScrolled
-            ? 'bg-[#05070a]/85 backdrop-blur-md border-b border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.5)]'
+            ? 'bg-[#05070a]/90 backdrop-blur-md border-b border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.5)]'
             : 'bg-transparent'
         }`}
       >

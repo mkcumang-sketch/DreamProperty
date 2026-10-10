@@ -1,0 +1,118 @@
+import { ServiceItem } from '@/types';
+
+export const servicesConfig: ServiceItem[] = [
+  {
+    id: 'home-staging',
+    title: 'Home Staging for Sellers',
+    titleHi: 'विक्रेताओं के लिए होम स्टेजिंग',
+    benefit: 'Sell resale properties up to 40% faster at peak valuations.',
+    benefitHi: 'पुनर्विक्रय संपत्तियों को 40% तेजी से और उच्चतम मूल्य पर बेचें।',
+    iconName: 'Home',
+    tag: 'Faster Resale',
+    bullets: [
+      'Strategic visual decluttering, lighting elevation, and curated furniture placement',
+      'Professional photography-ready staging for Dream Properties listings',
+      'Immediate buyer emotional appeal creating competitive offers',
+    ],
+    bulletsHi: [
+      'रणनीतिक प्रकाश व्यवस्था और आकर्षक फर्नीचर विन्यास',
+      'ड्रीम प्रॉपर्टीज लिस्टिंग के लिए उच्च गुणवत्ता वाली फोटोग्राफी',
+      'खरीदारों के मन में तुरंत प्रभाव पैदा करने वाली साज-सज्जा',
+    ],
+  },
+  {
+    id: 'rental-furnishing',
+    title: 'Rental-Ready Furnishing',
+    titleHi: 'किरायेदारों के लिए तैयार साज-सज्जा',
+    benefit: 'Maximize monthly yields and attract premium corporate tenants.',
+    benefitHi: 'मासिक किराया बढ़ाएं और कॉर्पोरेट किरायेदारों को आकर्षित करें।',
+    iconName: 'Sparkles',
+    tag: 'High Yield',
+    bullets: [
+      'Heavy-duty, scratch-resistant materials designed for long tenant tenures',
+      'Turnkey appliance coordination, lighting, and durable modular wardrobes',
+      'Zero-vacancy turnaround between lease changeovers in Kanpur prime sectors',
+    ],
+    bulletsHi: [
+      'किरायेदारों के उपयोग के लिए टिकाऊ और मजबूत सामग्री',
+      'उपकरणों और वार्डरोब के साथ पूर्ण टर्नकी सेटअप',
+      'कानपुर के प्रमुख क्षेत्रों में न्यूनतम खाली समय',
+    ],
+  },
+  {
+    id: 'turnkey-interiors',
+    title: 'Turnkey Interiors for New Buyers',
+    titleHi: 'नए खरीदारों के लिए टर्नकी इंटीरियर',
+    benefit: 'Effortless move-in ready homes with end-to-end execution.',
+    benefitHi: 'एक ही छत के नीचे बिना किसी तनाव के पूर्ण गृह निर्माण।',
+    iconName: 'Key',
+    tag: 'Move-in Ready',
+    bullets: [
+      'Civil modifications, false ceilings, electrical, plumbing, and wall finishes',
+      'Curated soft furnishings, custom accent furniture, and branded sanitaryware',
+      'Single-point project manager with milestone updates via WhatsApp',
+    ],
+    bulletsHi: [
+      'फॉल्स सीलिंग, इलेक्ट्रिकल, पेंटिंग और संपूर्ण फिनिशिंग',
+      'कस्टम फर्नीचर, पर्दे और ब्रांडेड फिटिंग्स का संयोजन',
+      'व्हाट्सएप पर नियमित प्रगति रिपोर्ट के साथ समर्पित प्रबंधक',
+    ],
+  },
+  {
+    id: 'commercial-fitouts',
+    title: 'Commercial & Hotel-Lease Fit-Outs',
+    titleHi: 'व्यावसायिक एवं होटल लीज फिट-आउट',
+    benefit: 'Compliant, brand-defining commercial and hospitality architecture.',
+    benefitHi: 'ब्रांड को नई पहचान देने वाले व्यावसायिक और होटल इंटीरियर।',
+    iconName: 'Building2',
+    tag: 'Hospitality & Retail',
+    bullets: [
+      'Acoustic treatments, zoned HVAC routing, and energy-efficient lighting',
+      'Robust materials tailored to high-footfall retail and boutique hotel suites',
+      'Strict fire-safety, local building code, and lease-agreement compliance',
+    ],
+    bulletsHi: [
+      'ध्वनिरोधी व्यवस्था और ऊर्जा-कुशल प्रकाश योजना',
+      'होटल कमरों और शोरूम के लिए उच्च गुणवत्ता वाले मैटेरियल',
+      'अग्निशमन और स्थानीय नियमों का शत-प्रतिशत पालन',
+    ],
+  },
+  {
+    id: 'modular-kitchens-wardrobes',
+    title: 'Modular Kitchens & Wardrobe Suites',
+    titleHi: 'मॉड्यूलर किचन एवं वार्डरोब सुइट्स',
+    benefit: 'German hardware, termite-proof HDHMR, and lifetime smoothness.',
+    benefitHi: 'जर्मन फिटिंग्स, दीमक-रोधी बोर्ड और जीवनभर चलने वाली स्मूथनेस।',
+    iconName: 'Boxes',
+    tag: 'Precision Joinery',
+    bullets: [
+      'Factory-calibrated finishes with zero on-site sawdust or mess',
+      'Soft-close Blum/Hettich hinges, quartz countertops, and anti-fingerprint laminates',
+      '10-year manufacturer warranty with complimentary annual health checkup',
+    ],
+    bulletsHi: [
+      'फैक्ट्री में निर्मित फिनिशिंग जिससे घर में गंदगी न हो',
+      'ब्लम/हेटिच सॉफ्ट-क्लोज हिंगेस और क्वार्ट्ज काउंटरटॉप',
+      '10 वर्ष की वारंटी और निःशुल्क वार्षिक निरीक्षण',
+    ],
+  },
+  {
+    id: 'vastu-layouts',
+    title: 'Vastu-Aware & Ergonomic Space Planning',
+    titleHi: 'वास्तु-सम्मत एवं आरामदायक लेआउट',
+    benefit: 'Harmonize ancient spatial geometry with sleek modern aesthetics.',
+    benefitHi: 'प्राचीन वास्तु सिद्धांतों और आधुनिक सुख-सुविधाओं का संगम।',
+    iconName: 'Compass',
+    tag: 'Vastu Certified',
+    bullets: [
+      'North-East water flow, South-East fire element, and South-West master bedroom alignment',
+      'Cross-ventilation and natural daylight maximization for Kanpur climate',
+      'Zero demolition non-invasive remedial adjustments for ready apartments',
+    ],
+    bulletsHi: [
+      'ईशान कोण, आग्नेय कोण और नैऋत्य कोण का सटीक संतुलन',
+      'कानपुर के मौसम अनुसार प्राकृतिक प्रकाश और हवा का प्रवाह',
+      'बिना किसी तोड़-फोड़ के तैयार फ्लैटों में वास्तु सुधार',
+    ],
+  },
+];

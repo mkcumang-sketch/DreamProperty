@@ -1,6 +1,6 @@
 import React from 'react';
-import { Hero } from '@/components/sections/Hero';
 import { KageExperience } from '@/components/sections/KageExperience';
+import { Philosophy } from '@/components/sections/Philosophy';
 import { Stats } from '@/components/sections/Stats';
 import { Services } from '@/components/sections/Services';
 import { Process } from '@/components/sections/Process';
@@ -14,8 +14,8 @@ import { CtaBanner } from '@/components/sections/CtaBanner';
 export default function HomePage() {
   return (
     <main className="flex-1 w-full">
-      <Hero />
       <KageExperience />
+      <Philosophy />
       <Stats />
       <Services />
       <Process />
